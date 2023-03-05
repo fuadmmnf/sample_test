@@ -1,0 +1,36 @@
+x#!/bin/bash
+
+if [ $# -eq 0 ]; then
+	echo "no args passed"
+elif [ $# -eq 1 ]; then
+	echo "1 arg passed"
+else
+	echo "too much args"
+fi
+
+
+for i in $(seq 2 4 20)
+do
+echo "Welcome $i times"
+done
+
+
+for i in {0..10..2}
+do 
+	echo "Welcome $i times"
+done
+
+
+
+if [ -x ~/Downloads/temp/my_temp_script ]; then
+	echo "file can be executed"
+else
+	echo "not executable"
+fi
+
+
+if [ -d ~/Downloads/temp ]; then
+        echo "is dir"
+else
+        echo "not dir"
+fi
