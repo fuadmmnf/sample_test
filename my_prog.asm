@@ -5,7 +5,7 @@ section .text
  global main
 main:
  mov eax,4
- mov ebx,1
+ mov ebx3v3jvn jfnwkj fwjke,1
  mov ecx,hello
  mov edx,helloLen
  int 80h
